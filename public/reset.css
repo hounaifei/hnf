@@ -1,0 +1,49 @@
+﻿/*样式的清空重置*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+b,i,em {
+	font-style: normal;
+}
+/*共同宽度*/
+.banxin {
+	width: 690px;
+	margin: 0 auto;
+}
+/*清除浮动*/
+.clearfloat {
+	zoom: 1;
+}
+
+.clearfloat:after {
+	display: block;
+	height: 0;
+	content: "";
+	visibility: hidden;
+	/*overflow: hidden;*/
+	clear: both;
+}
+
+ul,li {
+	list-style: none;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+img {
+	border: none;
+	vertical-align: middle;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+}
